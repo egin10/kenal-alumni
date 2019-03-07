@@ -53,5 +53,22 @@ $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-$route['hello'] = 'welcome/hello';
-$route['admin'] = 'welcome/admin';
+
+/**
+ * login & register page
+ */
+$route['login'] = 'web/login';
+
+/**
+ * alumni page
+ */
+$route['alumni'] = 'alumni';
+$route['alumni/profile'] = 'alumni/profile';
+
+/**
+ * guru page
+ */
+
+/**
+ * admin page
+ */
