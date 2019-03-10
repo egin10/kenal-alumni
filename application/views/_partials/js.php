@@ -14,13 +14,23 @@
   <!--script for this page-->
   <script src="<?php echo base_url('assets/lib/sparkline-chart.js'); ?>"></script>
   <script src="<?php echo base_url('assets/lib/zabuto_calendar.js'); ?>"></script>
+  <script src="<?php echo base_url('assets/lib/jquery-ui-1.9.2.custom.min.js'); ?>"></script>
+  <script type="text/javascript" src="<?php echo base_url('assets/lib/bootstrap-fileupload/bootstrap-fileupload.js'); ?>"></script>
+  <script type="text/javascript" src="<?php echo base_url('assets/lib/bootstrap-datepicker/js/bootstrap-datepicker.js'); ?>"></script>
+  <script type="text/javascript" src="<?php echo base_url('assets/lib/bootstrap-daterangepicker/date.js'); ?>"></script>
+  <script type="text/javascript" src="<?php echo base_url('assets/lib/bootstrap-daterangepicker/daterangepicker.js'); ?>"></script>
+  <script type="text/javascript" src="<?php echo base_url('assets/lib/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js'); ?>"></script>
+  <script type="text/javascript" src="<?php echo base_url('assets/lib/bootstrap-daterangepicker/moment.min.js'); ?>"></script>
+  <script type="text/javascript" src="<?php echo base_url('assets/lib/bootstrap-timepicker/js/bootstrap-timepicker.js'); ?>"></script>
+  <script src="<?php echo base_url('assets/lib/advanced-form-components.js'); ?>"></script>
+
   <script type="text/javascript">
     $(document).ready(function() {
       var unique_id = $.gritter.add({
         // (string | mandatory) the heading of the notification
-        title: 'Welcome to Dashio!',
+        title: 'Selamat Datang Alumni!',
         // (string | mandatory) the text inside the notification
-        text: 'Hover me to enable the Close Button. You can hide the left sidebar clicking on the button next to the logo.',
+        text: 'Silahkan lengkapi Data Diri anda sebagai alumni. Terimakasih.',
         // (string | optional) the image to display on the left
         image: '<?php echo base_url('assets/img/ui-sam.jpg'); ?>',
         // (bool | optional) if you want it to fade out on its own or just sit there

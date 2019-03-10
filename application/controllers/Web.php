@@ -7,8 +7,18 @@ class Web extends CI_Controller {
 		parent::__construct();
 	}
 
+	public function index()
+	{
+		$this->load->view('blank');
+	}
+
 	public function login()
 	{
 		$this->load->view('login');
+	}
+
+	public function register()
+	{
+		$this->load->view('register');
 	}
 }

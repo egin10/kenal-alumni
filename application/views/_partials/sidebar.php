@@ -13,14 +13,23 @@
           </li>
           <li class="sub-menu">
             <a href="javascript:;">
-              <i class="fa fa-desktop"></i>
-              <span>UI Elements</span>
+              <i class="fa fa-tags"></i>
+              <span>Alumni</span>
               </a>
             <ul class="sub">
-              <li><a href="general.html">General</a></li>
-              <li><a href="buttons.html">Buttons</a></li>
-              <li><a href="panels.html">Panels</a></li>
-              <li><a href="font_awesome.html">Font Awesome</a></li>
+              <li><a href="<?php echo base_url(); ?>"><i class="fa fa-laptop"></i>TKJ</a></li>
+              <li><a href="<?php echo base_url(); ?>"><i class="fa fa-cogs"></i>TKR</a></li>
+              <li><a href="<?php echo base_url(); ?>"><i class="fa fa-chain"></i>TKJ</a></li>
+            </ul>
+          </li>
+          <li class="sub-menu">
+            <a href="javascript:;">
+              <i class="fa fa-rss"></i>
+              <span>Info</span>
+              </a>
+            <ul class="sub">
+              <li><a href="<?php echo base_url(); ?>"><i class="fa fa-file-text"></i>Artikel</a></li>
+              <li><a href="<?php echo base_url(); ?>"><i class="fa fa-folder-o"></i>Loker</a></li>
             </ul>
           </li>
         </ul>

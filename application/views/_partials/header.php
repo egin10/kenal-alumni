@@ -22,6 +22,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <!--external css-->
   <link href="<?php echo base_url('assets/lib/font-awesome/css/font-awesome.css'); ?>" rel="stylesheet" />
   <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/zabuto_calendar.css'); ?>">
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/lib/bootstrap-fileupload/bootstrap-fileupload.css'); ?>" />
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/lib/bootstrap-datepicker/css/datepicker.css'); ?>" />
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/lib/bootstrap-daterangepicker/daterangepicker.css'); ?>" />
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/lib/bootstrap-timepicker/compiled/timepicker.css'); ?>" />
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/lib/bootstrap-datetimepicker/datertimepicker.css'); ?>" />
+
   <!-- Custom styles for this template -->
   <link href="<?php echo base_url('assets/css/style.css'); ?>" rel="stylesheet">
   <link href="<?php echo base_url('assets/css/style-responsive.css'); ?>" rel="stylesheet">

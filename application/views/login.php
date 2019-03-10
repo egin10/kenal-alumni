@@ -51,7 +51,7 @@
           <hr>
           <div class="registration">
             Don't have an account yet?<br/>
-            <a class="" href="#">
+            <a class="" href="<?php echo base_url().'register'; ?>">
               Create an account
               </a>
           </div>
