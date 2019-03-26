@@ -11,7 +11,6 @@
         MAIN SIDEBAR MENU
         *********************************************************************************************************************************************************** -->
 <?php
-  $username = 'egin10';
   require_once(__DIR__.'/../_partials/sidebar.php');
 ?>
     <!-- **********************************************************************************************************************************************************
@@ -25,7 +24,7 @@
             <div class="row content-panel">
               <!-- /col-md-4 -->
               <div class="col-md-7 col-md-offset-1 profile-text">
-                <h3>Egin 10</h3>
+                <h3><?php echo $username; ?></h3>
                 <!-- <h6>Alumni Jurusan TKJ 2011-2014</h6> -->
                 <p>Alumni Jurusan TKJ 2011-2014.</p>
               </div>
@@ -67,7 +66,7 @@
                       <!-- Content -->
                       <div class="col-md-10 col-md-offset-2 detailed">
                         <p>
-                          <b>Username</b> : egin10<br><br>
+                          <b>Username</b> : <?php echo $username; ?><br><br>
                           <b>Nama Lengkap</b> : egin10<br><br>
                           <b>Tempat dan Tanggal Lahir </b>: Pochinki, 20 Maret 2010<br><br>
                           <b>Jenis Kelamin </b>: Laki-Laki<br><br>
@@ -98,7 +97,7 @@
                           </p>
                           <br>
                           <p>
-                            <i class="fa fa-envelope"></i> <b>Email</b> : testing1@gmail.com
+                            <i class="fa fa-envelope"></i> <b>Email</b> : <?php echo $email; ?>
                             <br/>
                             <i class="fa fa-linkedin-square"></i> <b>LinkedIn</b> : https://www.linkedin.com/testing1
                             <br/>
@@ -154,9 +153,15 @@
                             </div>
                           </div>
                           <div class="form-group">
-                            <label class="col-lg-2 control-label">Tempat dan Tanggal lahir</label>
+                            <label class="col-lg-2 control-label">Tempat Lahir</label>
                             <div class="col-lg-6">
-                            <input class="form-control form-control-inline input-medium default-date-picker" size="16" type="text" value="" placeholder="Tempat dan Tanggal Lahir">
+                              <input type="text" placeholder="Tempat Lahir" id="tmptLahir" class="form-control">
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label class="col-lg-2 control-label">Tanggal lahir</label>
+                            <div class="col-lg-6">
+                            <input class="form-control form-control-inline input-medium default-date-picker" size="16" type="text" value="" placeholder="Tempat dan Tanggal Lahir" id="tglLahir">
                             </div>
                           </div>
                           <div class="form-group">
@@ -224,19 +229,19 @@
                           <div class="form-group">
                             <label class="col-lg-2 control-label">No HP</label>
                             <div class="col-lg-6">
-                              <input type="text" placeholder=" " id="noHP" class="form-control">
+                              <input type="text" placeholder="085555555555" id="noHP" class="form-control">
                             </div>
                           </div>
                           <div class="form-group">
                             <label class="col-lg-2 control-label">No Whatsapp</label>
                             <div class="col-lg-6">
-                              <input type="text" placeholder=" " id="noWA" class="form-control">
+                              <input type="text" placeholder="085555555555" id="noWA" class="form-control">
                             </div>
                           </div>
                           <div class="form-group">
                             <label class="col-lg-2 control-label">Email</label>
                             <div class="col-lg-6">
-                              <input type="text" placeholder=" " id="email" class="form-control">
+                              <input type="email" placeholder="example@mail.com" id="email" class="form-control">
                             </div>
                           </div>
                           <div class="form-group">

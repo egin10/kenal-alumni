@@ -51,7 +51,7 @@
             <h4><i class="fa fa-angle-right"></i> Registrasi Alumni</h4>
             <div class="form-panel">
               <div class="form">
-                <form class="cmxform form-horizontal style-form" id="signupForm" method="get" action="">
+                <form class="cmxform form-horizontal style-form" id="signupForm" method="POST" action="<?php echo base_url().'register/post'; ?>">
                   <div class="form-group ">
                     <label for="firstname" class="control-label col-lg-2">Nama Depan</label>
                     <div class="col-lg-10">

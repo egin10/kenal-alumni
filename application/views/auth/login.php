@@ -35,12 +35,12 @@
       *********************************************************************************************************************************************************** -->
   <div id="login-page">
     <div class="container">
-      <form class="form-login" action="<?php echo base_url().'alumni'; ?>">
+      <form class="form-login" method="POST" action="<?php echo base_url().'login/post'; ?>">
         <h2 class="form-login-heading">sign in now</h2>
         <div class="login-wrap">
-          <input type="text" class="form-control" placeholder="User ID" autofocus>
+          <input type="text" name="username" class="form-control" placeholder="User ID" autofocus>
           <br>
-          <input type="password" class="form-control" placeholder="Password">
+          <input type="password" name="password" class="form-control" placeholder="Password">
           <label class="checkbox text-center">
             <input type="checkbox" value="remember-me"> Remember me
             <span class="pull-right">
@@ -56,6 +56,8 @@
               </a>
           </div>
         </div>
+      </form>
+      <form class="form-login" action="<?php echo base_url().'login'; ?>">
         <!-- Modal -->
         <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="myModal" class="modal fade">
           <div class="modal-dialog">
