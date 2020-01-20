@@ -15,6 +15,6 @@ Silahkan gunakan repositori ini untuk keperluan pengembangan dan sebagainya. Jik
 
 ## Lisensi
 
-[Lisensi MIT]('https://github.com/egin10/kenal-alumni/blob/master/LICENSE')
+[Lisensi MIT](https://github.com/egin10/kenal-alumni/blob/master/LICENSE)
 
 &copy; Made it with ❤️
